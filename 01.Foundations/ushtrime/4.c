@@ -1,10 +1,9 @@
-
-    // 1. Lexo emrin dhe moshën
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
 
 int main() {
+    // 1. Lexo emrin dhe moshën
     // char name[50];
     // int age;
 
