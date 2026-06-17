@@ -53,45 +53,91 @@ int main() {
 
 
     // 4. ATM i thjeshtë = bilansi,deposit,terhiq,  shfaq menu-n
-    double balance;
-    double deposit;
-    int Terhiq;
-    int option;
+    // double balance;
+    // double deposit;
+    // int Terhiq;
+    // int option;
 
-    printf("***Menu***");
-    printf("\nbilansi: ");
-    scanf("%lf", &balance);
-    printf("\n1.Deposit: ");
-    printf("\n2.Terhiq: ");
-    printf("\noption: ");
-    scanf("%d", &option);
+    // printf("***Menu***");
+    // printf("\nbilansi: ");
+    // scanf("%lf", &balance);
+    // printf("\n1.Deposit: ");
+    // printf("\n2.Terhiq: ");
+    // printf("\noption: ");
+    // scanf("%d", &option);
 
 
-    if (balance > 0)
-    {
-        if (option == 1)
-        {
-            printf("\nDeposit: ");
-            scanf("%lf", &deposit);
-            balance += deposit;
-            printf("Bilansi i ri: %.2lf\n", balance);
-        } else if (option == 2)
-        {
-            printf("\nTerhiq: ");
-            scanf("%d", &Terhiq);
-            if (Terhiq <= balance)
-            {
-                balance -= Terhiq;
-            } else {
-                printf("Nuk ke mjete te mjaftueshme per ta kryer kete transaksion.\n");
-            }
-            printf("Bilansi i ri: %.2lf\n", balance);
-        } else {
-            printf("\nZgjidhe njeren prej numrave 1-2");
-        }
-    }
-    
-    // 5. Nota e studentit
+    // if (balance > 0)
+    // {
+    //     if (option == 1)
+    //     {
+    //         printf("\nDeposit: ");
+    //         scanf("%lf", &deposit);
+    //         balance += deposit;
+    //         printf("Bilansi i ri: %.2lf\n", balance);
+    //     } else if (option == 2)
+    //     {
+    //         printf("\nTerhiq: ");
+    //         scanf("%d", &Terhiq);
+    //         if (Terhiq <= balance)
+    //         {
+    //             balance -= Terhiq;
+    //         } else {
+    //             printf("Nuk ke mjete te mjaftueshme per ta kryer kete transaksion.\n");
+    //         }
+    //         printf("Bilansi i ri: %.2lf\n", balance);
+    //     } else {
+    //         printf("\nZgjidhe njeren prej numrave 1-2");
+    //     }
+    // }
+    // 5. Nota e studentit - notimi me pik ; 90-100 '10'... 
+    // int Nota;
+
+    // printf("Vlereso: ");
+    // scanf("%d", &Nota);
+
+    // if (Nota >= 99)
+    // {
+    //     printf("Nota: 10");
+    // } else if (Nota >= 80)
+    // {
+    //     printf("Nota: 9");
+    // } else if (Nota >= 70)
+    // {
+    //     printf("Nota: 8");
+    // } else if (Nota >= 60)
+    // {
+    //     printf("Nota: 7");
+    // } else if (Nota >= 51)
+    // {
+    //     printf("Nota: 6");
+    // } else
+    // {
+    //     printf("Nuk keni kaluar");
+    // }
     // 6. Kontrollo moshën për patentë
+    // int age;
+
+    // printf("Sa vjec je: ");
+    // scanf("%d", &age);
+
+    // if (age >= 18)
+    // {
+    //     printf("Mund te regjistroheni per patentë");
+    // } else {
+    //     printf("Nuk mundet");
+    // }
+    
     // 7. Username + Age (kombinim me &&)
+    char username[20];
+    int age;
+
+    printf("\nShtypni emrin: ");
+    fgets(username, 20, stdin);
+    username[strlen(username) - 1] = '\n';
+
+    printf("\nSa vjec jeni: ");
+    scanf("%d", &age);
+
+    printf("Pershendetje %s, ju jeni %d vjec", username , age);
 }
