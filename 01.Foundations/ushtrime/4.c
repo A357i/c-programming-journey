@@ -44,7 +44,7 @@ int main() {
     // fgets(password, 20, stdin);
     // password[strlen(password) - 1] = '\n';
 
-    // if (strcmp(login, "admin") == 1 && strcmp(password, "1234") == 1)
+    // if (strcmp(login, "admin") == 0 && strcmp(password, "1234") == 0)
     // {
     //     printf("Login Success\n");
     // } else {
