@@ -19,10 +19,10 @@ int main(){
     // int z = x - y;
     // int z = x * y;
     // float z = x + (float) y;
-    // int z = x % y;
+    // float z = x % y;
     
-    x++;
-    y--;
+    x++; // x = x + 1
+    y--; // y = y - 1
 
     printf("%d", y);
 

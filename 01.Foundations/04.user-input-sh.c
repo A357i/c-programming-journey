@@ -13,7 +13,7 @@ int main(){
 
     printf("\nWhat's your name");
     //scanf("%s", &name);
-    fgets(name, 25, stdin); 
+    fgets(name, 25, stdin);         // stdin - standard input - programi pret input (), zakonisht inputi vjen nga tastiera
     name[strlen(name)-1] = '\0';    // Null Terminator \0 - I kallxon se ketu mbaron string-u
 
     printf("\nHow old are you?");

@@ -7,7 +7,7 @@ int main(){
     //           But we need to declare what type of data we are storing.
 
     int x;       //Declaration
-    x = 123;     //Initialization
+    x = 123;     //Initialization  apo caktim vlere
     int y = 321; //declaration + initialization
 
     int age = 21;         //integer

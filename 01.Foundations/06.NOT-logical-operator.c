@@ -3,7 +3,7 @@
 
 int main(){
 
-        // logical operatos = ! (NOT) reverses the state of a condition
+        // logical operators = ! (NOT) reverses the state of a condition
     
     bool sunny = false;
 

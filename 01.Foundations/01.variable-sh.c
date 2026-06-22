@@ -9,6 +9,9 @@ int main(){
 
     int x;       // Deklarimi i variablës - por nuk ka vler
     x = 123;     // caktimi vlerës (dhënia e vlerës)
+                 // Dallimi mes = dhe == :
+                 // = vendos vler
+                 // == krahason vlera 
 
     int y = 321; // Deklarim + Caktimi apo dhënia e vlerës në një rresht
 
