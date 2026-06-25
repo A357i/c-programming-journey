@@ -30,10 +30,12 @@ int main() {
     char pergjigje[25];
     
     printf("Shkruaj diqka: ");
-    fgets(pergjigje, sizeof(pergjigje), stdin);
+    fgets(pergjigje, sizeof(pergjigje), stdin); 
     pergjigje[strcspn(pergjigje, "\n")] = '\0';
+                // strcspn --> i hek \n 
 
-    int res = strcmp(pergjigje, "OK") && strcmp(pergjigje, "ok");
+    int res = strcmp(pergjigje, "OK") && strcmp(pergjigje, "ok"); 
+                // strcmp - krahason stringje
 
     while (res != 0)
     {
@@ -46,3 +48,5 @@ int main() {
 }
 
 // Shpjego me fjalë çfarë ndodh nëse kushti i while është gjithmonë true.
+// neqofse kushti i while eshte gjithmone true ne hym ne nje cikel te pafundshem (endless loop )
+// neqofse eshte while(1 = 1) { print("Jam bllokuar ne loop"}; } kjo do ishte loop i pafundshem ,
